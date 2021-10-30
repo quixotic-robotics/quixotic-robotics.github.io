@@ -611,7 +611,7 @@ section {
 .hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: #012970;
 }
 
@@ -702,14 +702,14 @@ section {
 
 .about h3 {
   font-size: 14px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: #4154f1;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: #012970;
 }
 
@@ -766,7 +766,7 @@ section {
 .values .box h3 {
   font-size: 24px;
   color: #012970;
-  font-weight: 700;
+  /* font-weight: 700; */
   margin-bottom: 18px;
 }
 
@@ -966,7 +966,7 @@ section {
 
 .services .service-box h3 {
   color: #444444;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .services .service-box .read-more {
@@ -1619,7 +1619,7 @@ section {
 }
 
 .team .member .member-info h4 {
-  font-weight: 700;
+  /* font-weight: 700; */
   margin-bottom: 5px;
   font-size: 20px;
   color: #012970;
