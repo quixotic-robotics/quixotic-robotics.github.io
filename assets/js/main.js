@@ -156,9 +156,9 @@
   });
 
   /**
-   * Clients Slider
+   * Sponsors Slider
    */
-  new Swiper('.clients-slider', {
+  new Swiper('.sponsors-slider', {
     speed: 400,
     loop: false,
     centerInsufficientSlides: true,
@@ -196,23 +196,23 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
+    let projectsContainer = select('.projects-container');
+    if (projectsContainer) {
+      let projectsIsotope = new Isotope(projectsContainer, {
+        itemSelector: '.projects-item',
         layoutMode: 'fitRows'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let projectsFilters = select('#projects-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#projects-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        projectsFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
+        projectsIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
         aos_init();
@@ -222,16 +222,16 @@
   });
 
   /**
-   * Initiate portfolio lightbox
+   * Initiate projects lightbox
    */
-  const portfolioLightbox = GLightbox({
+  const projectsLightbox = GLightbox({
     selector: '.portfokio-lightbox'
   });
 
   /**
-   * Portfolio details slider
+   * Projects details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.projects-details-slider', {
     speed: 400,
     autoplay: {
       delay: 5000,

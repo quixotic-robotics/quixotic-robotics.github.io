@@ -8,185 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@font-face {
-    font-family: 'Recoleta Alt';
-    src: url('../fonts/RecoletaAlt-Thin.eot');
-    src: local('Recoleta Alt Thin'), local('RecoletaAlt-Thin'),
-        url('../fonts/RecoletaAlt-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RecoletaAlt-Thin.woff2') format('woff2'),
-        url('../fonts/RecoletaAlt-Thin.woff') format('woff'),
-        url('../fonts/RecoletaAlt-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('../fonts/Recoleta-Medium.eot');
-    src: local('Recoleta Medium'), local('Recoleta-Medium'),
-        url('../fonts/Recoleta-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Recoleta-Medium.woff2') format('woff2'),
-        url('../fonts/Recoleta-Medium.woff') format('woff'),
-        url('../fonts/Recoleta-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta Alt';
-    src: url('../fonts/RecoletaAlt-SemiBold.eot');
-    src: local('Recoleta Alt SemiBold'), local('RecoletaAlt-SemiBold'),
-        url('../fonts/RecoletaAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RecoletaAlt-SemiBold.woff2') format('woff2'),
-        url('../fonts/RecoletaAlt-SemiBold.woff') format('woff'),
-        url('../fonts/RecoletaAlt-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta Alt';
-    src: url('../fonts/RecoletaAlt-Medium.eot');
-    src: local('Recoleta Alt Medium'), local('RecoletaAlt-Medium'),
-        url('../fonts/RecoletaAlt-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RecoletaAlt-Medium.woff2') format('woff2'),
-        url('../fonts/RecoletaAlt-Medium.woff') format('woff'),
-        url('../fonts/RecoletaAlt-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta Alt';
-    src: url('../fonts/RecoletaAlt-Regular.eot');
-    src: local('Recoleta Alt Regular'), local('RecoletaAlt-Regular'),
-        url('../fonts/RecoletaAlt-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RecoletaAlt-Regular.woff2') format('woff2'),
-        url('../fonts/RecoletaAlt-Regular.woff') format('woff'),
-        url('../fonts/RecoletaAlt-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('../fonts/Recoleta-Thin.eot');
-    src: local('Recoleta Thin'), local('Recoleta-Thin'),
-        url('../fonts/Recoleta-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Recoleta-Thin.woff2') format('woff2'),
-        url('../fonts/Recoleta-Thin.woff') format('woff'),
-        url('../fonts/Recoleta-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta Alt';
-    src: url('../fonts/RecoletaAlt-Bold.eot');
-    src: local('Recoleta Alt Bold'), local('RecoletaAlt-Bold'),
-        url('../fonts/RecoletaAlt-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RecoletaAlt-Bold.woff2') format('woff2'),
-        url('../fonts/RecoletaAlt-Bold.woff') format('woff'),
-        url('../fonts/RecoletaAlt-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta Alt';
-    src: url('../fonts/RecoletaAlt-Black.eot');
-    src: local('Recoleta Alt Black'), local('RecoletaAlt-Black'),
-        url('../fonts/RecoletaAlt-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RecoletaAlt-Black.woff2') format('woff2'),
-        url('../fonts/RecoletaAlt-Black.woff') format('woff'),
-        url('../fonts/RecoletaAlt-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta Alt';
-    src: url('../fonts/RecoletaAlt-Light.eot');
-    src: local('Recoleta Alt Light'), local('RecoletaAlt-Light'),
-        url('../fonts/RecoletaAlt-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RecoletaAlt-Light.woff2') format('woff2'),
-        url('../fonts/RecoletaAlt-Light.woff') format('woff'),
-        url('../fonts/RecoletaAlt-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('../fonts/Recoleta-SemiBold.eot');
-    src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
-        url('../fonts/Recoleta-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Recoleta-SemiBold.woff2') format('woff2'),
-        url('../fonts/Recoleta-SemiBold.woff') format('woff'),
-        url('../fonts/Recoleta-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('../fonts/Recoleta-Regular.eot');
-    src: local('Recoleta Regular'), local('Recoleta-Regular'),
-        url('../fonts/Recoleta-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Recoleta-Regular.woff2') format('woff2'),
-        url('../fonts/Recoleta-Regular.woff') format('woff'),
-        url('../fonts/Recoleta-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('../fonts/Recoleta-Bold.eot');
-    src: local('Recoleta Bold'), local('Recoleta-Bold'),
-        url('../fonts/Recoleta-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Recoleta-Bold.woff2') format('woff2'),
-        url('../fonts/Recoleta-Bold.woff') format('woff'),
-        url('../fonts/Recoleta-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('../fonts/Recoleta-Black.eot');
-    src: local('Recoleta Black'), local('Recoleta-Black'),
-        url('../fonts/Recoleta-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Recoleta-Black.woff2') format('woff2'),
-        url('../fonts/Recoleta-Black.woff') format('woff'),
-        url('../fonts/Recoleta-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Recoleta';
-    src: url('../fonts/Recoleta-Light.eot');
-    src: local('Recoleta Light'), local('Recoleta-Light'),
-        url('../fonts/Recoleta-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Recoleta-Light.woff2') format('woff2'),
-        url('../fonts/Recoleta-Light.woff') format('woff'),
-        url('../fonts/Recoleta-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
 }
 
 body {
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: "Recoleta";
+  font-family: 'Raleway', sans-serif;
   color: #444444;
 }
 
@@ -205,8 +32,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* font-family: "Nunito", sans-serif; */
-  font-family: "Recoleta";
+  font-family: 'Averia Serif Libre', cursive;
 }
 
 /*--------------------------------------------------------------
@@ -238,6 +64,7 @@ section {
   line-height: 42px;
   font-weight: 700;
   color: #012970;
+  font-family: 'Averia Serif Libre', cursive;
 }
 
 @media (max-width: 768px) {
@@ -347,6 +174,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  font-family: 'Averia Serif Libre', cursive;
 }
 
 .header.header-scrolled {
@@ -365,13 +193,12 @@ section {
 }
 
 .header .logo span {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  /* font-family: "Nunito", sans-serif; */
-  font-family: "Recoleta";
-  margin-top: 3px;
+  margin-top: -5px;
+  margin-left: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -401,9 +228,8 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  /* font-family: "Nunito", sans-serif; */
-  font-family: "Recoleta";
-  font-size: 16px;
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 18px;
   font-weight: 700;
   color: #013289;
   white-space: nowrap;
@@ -554,7 +380,7 @@ section {
 
 .navbar-mobile a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 20px;
   color: #012970;
 }
 
@@ -611,7 +437,6 @@ section {
 .hero h1 {
   margin: 0;
   font-size: 48px;
-  /* font-weight: 700; */
   color: #012970;
 }
 
@@ -619,6 +444,7 @@ section {
   color: #444444;
   margin: 15px 0 0 0;
   font-size: 26px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .hero .btn-get-started {
@@ -633,8 +459,7 @@ section {
 }
 
 .hero .btn-get-started span {
-  /* font-family: "Nunito", sans-serif; */
-  font-family: "Recoleta";
+  font-family: 'Averia Serif Libre', cursive;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -700,17 +525,17 @@ section {
   padding: 40px;
 }
 
-.about h3 {
-  font-size: 14px;
-  /* font-weight: 700; */
-  color: #4154f1;
-  text-transform: uppercase;
+.about h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #012970;
 }
 
 .about h2 {
-  font-size: 24px;
-  /* font-weight: 700; */
-  color: #012970;
+  color: #444444;
+  margin: 15px 0 0 0;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .about p {
@@ -729,8 +554,7 @@ section {
 }
 
 .about .btn-read-more span {
-  /* font-family: "Nunito", sans-serif; */
-  font-family: "Recoleta";
+  font-family: 'Averia Serif Libre', cursive;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -747,9 +571,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Values
+# Robots
 --------------------------------------------------------------*/
-.values .box {
+.robots .box {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
@@ -757,24 +581,23 @@ section {
   height: 100%;
 }
 
-.values .box img {
+.robots .box img {
   padding: 30px 50px;
   transition: 0.5s;
   transform: scale(1.1);
 }
 
-.values .box h3 {
+.robots .box h3 {
   font-size: 24px;
   color: #012970;
-  /* font-weight: 700; */
   margin-bottom: 18px;
 }
 
-.values .box:hover {
+.robots .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
-.values .box:hover img {
+.robots .box:hover img {
   transform: scale(1);
 }
 
@@ -811,8 +634,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  /* font-family: "Nunito", sans-serif; */
-  font-family: "Recoleta";
+  font-family: 'Averia Serif Libre', cursive;
   font-size: 14px;
 }
 
@@ -942,9 +764,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Events
 --------------------------------------------------------------*/
-.services .service-box {
+.events .event-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 100%;
   padding: 60px 30px;
@@ -953,7 +775,7 @@ section {
   border-radius: 5px;
 }
 
-.services .service-box .icon {
+.events .event-box .icon {
   font-size: 36px;
   padding: 40px 20px;
   border-radius: 4px;
@@ -964,12 +786,11 @@ section {
   transition: 0.3s;
 }
 
-.services .service-box h3 {
+.events .event-box h3 {
   color: #444444;
-  /* font-weight: 700; */
 }
 
-.services .service-box .read-more {
+.events .event-box .read-more {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -978,119 +799,136 @@ section {
   padding: 8px 20px;
 }
 
-.services .service-box .read-more i {
+.events .event-box .read-more i {
   line-height: 0;
   margin-left: 5px;
   font-size: 18px;
 }
 
-.services .service-box.blue {
+.events .event-box.blue {
   border-bottom: 3px solid #2db6fa;
 }
 
-.services .service-box.blue .icon {
+.events .event-box.blue .icon {
   color: #2db6fa;
   background: #dbf3fe;
 }
 
-.services .service-box.blue .read-more {
+.events .event-box.blue .read-more {
   color: #2db6fa;
 }
 
-.services .service-box.blue:hover {
+.events .event-box.blue:hover {
   background: #2db6fa;
 }
 
-.services .service-box.orange {
+.events .event-box.orange {
   border-bottom: 3px solid #f68c09;
 }
 
-.services .service-box.orange .icon {
+.events .event-box.orange .icon {
   color: #f68c09;
   background: #fde3c4;
 }
 
-.services .service-box.orange .read-more {
+.events .event-box.orange .read-more {
   color: #f68c09;
 }
 
-.services .service-box.orange:hover {
+.events .event-box.orange:hover {
   background: #f68c09;
 }
 
-.services .service-box.green {
+.events .event-box.green {
   border-bottom: 3px solid #08da4e;
 }
 
-.services .service-box.green .icon {
+.events .event-box.green .icon {
   color: #08da4e;
   background: #cffddf;
 }
 
-.services .service-box.green .read-more {
+.events .event-box.green .read-more {
   color: #08da4e;
 }
 
-.services .service-box.green:hover {
+.events .event-box.green:hover {
   background: #08da4e;
 }
 
-.services .service-box.red {
+.events .event-box.red {
   border-bottom: 3px solid #e9222c;
 }
 
-.services .service-box.red .icon {
+.events .event-box.red .icon {
   color: #e9222c;
   background: #fef7f8;
 }
 
-.services .service-box.red .read-more {
+.events .event-box.red .read-more {
   color: #e9222c;
 }
 
-.services .service-box.red:hover {
+.events .event-box.red:hover {
   background: #e9222c;
 }
 
-.services .service-box.purple {
+.events .event-box.yellow {
+  border-bottom: 3px solid #ffce44;
+}
+
+.events .event-box.yellow .icon {
+  color: #ffce44;
+  background: #fff8e6;
+}
+
+.events .event-box.yellow .read-more {
+  color: #ffce44;
+}
+
+.events .event-box.yellow:hover {
+  background: #ffce44;
+}
+
+.events .event-box.purple {
   border-bottom: 3px solid #b50edf;
 }
 
-.services .service-box.purple .icon {
+.events .event-box.purple .icon {
   color: #b50edf;
   background: #f8e4fd;
 }
 
-.services .service-box.purple .read-more {
+.events .event-box.purple .read-more {
   color: #b50edf;
 }
 
-.services .service-box.purple:hover {
+.events .event-box.purple:hover {
   background: #b50edf;
 }
 
-.services .service-box.pink {
+.events .event-box.pink {
   border-bottom: 3px solid #f51f9c;
 }
 
-.services .service-box.pink .icon {
+.events .event-box.pink .icon {
   color: #f51f9c;
   background: #feecf7;
 }
 
-.services .service-box.pink .read-more {
+.events .event-box.pink .read-more {
   color: #f51f9c;
 }
 
-.services .service-box.pink:hover {
+.events .event-box.pink:hover {
   background: #f51f9c;
 }
 
-.services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
+.events .event-box:hover h3, .events .event-box:hover p, .events .event-box:hover .read-more {
   color: #fff;
 }
 
-.services .service-box:hover .icon {
+.events .event-box:hover .icon {
   background: #fff;
 }
 
@@ -1228,9 +1066,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# projects
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.projects #projects-flters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
@@ -1240,7 +1078,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.projects #projects-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 20px 10px 20px;
@@ -1254,16 +1092,16 @@ section {
   border: 1px solid #fff;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.projects #projects-flters li:hover, .projects #projects-flters li.filter-active {
   color: #4154f1;
   border-color: #4154f1;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.projects #projects-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.projects .projects-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -1271,7 +1109,7 @@ section {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.portfolio .portfolio-wrap::before {
+.projects .projects-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.75);
   position: absolute;
@@ -1284,11 +1122,11 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
+.projects .projects-wrap img {
   transition: 1s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.projects .projects-wrap .projects-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -1304,7 +1142,7 @@ section {
   align-items: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-info::before {
+.projects .projects-wrap .projects-info::before {
   display: block;
   content: "";
   width: 48px;
@@ -1318,7 +1156,7 @@ section {
   z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info::after {
+.projects .projects-wrap .projects-info::after {
   display: block;
   content: "";
   width: 48px;
@@ -1332,13 +1170,13 @@ section {
   z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.projects .projects-wrap .projects-info h4 {
   font-size: 20px;
   color: #012970;
   font-weight: 700;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.projects .projects-wrap .projects-info p {
   color: #012970;
   font-weight: 600;
   font-size: 14px;
@@ -1347,12 +1185,12 @@ section {
   margin: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.projects .projects-wrap .projects-links {
   text-align: center;
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.projects .projects-wrap .projects-links a {
   color: #fff;
   background: #4154f1;
   margin: 10px 2px;
@@ -1365,20 +1203,20 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a i {
+.projects .projects-wrap .projects-links a i {
   font-size: 24px;
   line-height: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.projects .projects-wrap .projects-links a:hover {
   background: #5969f3;
 }
 
-.portfolio .portfolio-wrap:hover img {
+.projects .projects-wrap:hover img {
   transform: scale(1.1);
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.projects .projects-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -1386,37 +1224,37 @@ section {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.projects .projects-wrap:hover .projects-info {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info::before {
+.projects .projects-wrap:hover .projects-info::before {
   top: 15px;
   left: 15px;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info::after {
+.projects .projects-wrap:hover .projects-info::after {
   bottom: 15px;
   right: 15px;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Projects Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.projects-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.projects-details .projects-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.projects-details .projects-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.projects-details .projects-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1424,16 +1262,16 @@ section {
   border: 1px solid #4154f1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.projects-details .projects-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #4154f1;
 }
 
-.portfolio-details .portfolio-info {
+.projects-details .projects-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.projects-details .projects-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1441,27 +1279,27 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.projects-details .projects-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.projects-details .projects-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.projects-details .projects-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.projects-details .projects-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.projects-details .projects-description p {
   padding: 0;
 }
 
@@ -1619,7 +1457,6 @@ section {
 }
 
 .team .member .member-info h4 {
-  /* font-weight: 700; */
   margin-bottom: 5px;
   font-size: 20px;
   color: #012970;
@@ -1651,23 +1488,23 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# Sponsors
 --------------------------------------------------------------*/
-.clients .clients-slider .swiper-slide img {
+.sponsors .sponsors-slider .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
 }
 
-.clients .clients-slider .swiper-slide img:hover {
+.sponsors .sponsors-slider .swiper-slide img:hover {
   opacity: 1;
 }
 
-.clients .clients-slider .swiper-pagination {
+.sponsors .sponsors-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
+.sponsors .sponsors-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1675,7 +1512,7 @@ section {
   border: 1px solid #4154f1;
 }
 
-.clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+.sponsors .sponsors-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #4154f1;
 }
 
